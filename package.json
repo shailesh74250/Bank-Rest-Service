@@ -1,0 +1,23 @@
+{
+  "name": "bank-rest-service",
+  "version": "1.0.0",
+  "description": "get bank details through rest service",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shailesh74250/Bank-Rest-Service.git"
+  },
+  "author": "shailesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shailesh74250/Bank-Rest-Service/issues"
+  },
+  "homepage": "https://github.com/shailesh74250/Bank-Rest-Service#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
