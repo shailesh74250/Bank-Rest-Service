@@ -1,6 +1,8 @@
 var util = require('../utils/communicate_with_db.js');
 
+
 var appRouter = function(app){
+	
 	app.get("/:IFSC", function(req, res){
 		console.log("request came");
 		var code = req.param('IFSC');
