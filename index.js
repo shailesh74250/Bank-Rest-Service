@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 //routes(app);
 app.get("/", function(req, res){
-		console.log("hello world");
+		console.log("hello world hi");
 	});
 
 var server = app.listen(8080, function(){
