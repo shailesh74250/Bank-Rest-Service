@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "get bank details through rest service",
   "main": "index.js",
-  "scripts": {
-    "test": "npm test"
+ "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
