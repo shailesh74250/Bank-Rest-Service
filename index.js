@@ -11,5 +11,5 @@ routes(app);
 		console.log("hello world hi");
 	});*/
 
-var server = app.listen(process.env.PORT || 8080, () => console.log('All isok'))
+var server = app.listen(process.env.PORT || 3000, () => console.log('All is ok'))
 	
