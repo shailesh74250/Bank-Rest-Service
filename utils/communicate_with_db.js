@@ -1,12 +1,9 @@
 var url = 'mongodb://shaileshmourya:Kumar7425@ds241012.mlab.com:41012/bank_details';
+// for local host mongodb
 //var url = 'mongodb://127.0.0.1:27017';
 var MongoClient = require('mongodb').MongoClient;
 
-
-//var mongoose = require('mongoose');
-//mongoose.connect('mongodb://127.0.01/bank_details');
-
-function bankDetailsWithIS(code, callback){
+function bankDetailsWithIFSC(code, callback){
 	var data = {};
 	MongoClient.connect(url, function(err, db){
 		if (err) throw err;
@@ -34,5 +31,5 @@ function bankDetailsByNameCity(data, callback){
 	});
 }
 
-exports.bankDetailsWithIS = bankDetailsWithIS;
+exports.bankDetailsWithIFSC = bankDetailsWithIFSC;
 exports.bankDetailsByNameCity = bankDetailsByNameCity;
