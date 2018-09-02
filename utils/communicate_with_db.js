@@ -1,10 +1,10 @@
 var url = 'mongodb://shaileshmourya:Kumar7425@ds241012.mlab.com:41012/bank_details';
 // for local host mongodb
 //var url = 'mongodb://127.0.0.1:27017';
+
 var MongoClient = require('mongodb').MongoClient;
 
 function bankDetailsWithIFSC(code, callback){
-	var data = {};
 	MongoClient.connect(url, function(err, db){
 		if (err) throw err;
 		var dbo = db.db('bank_details');
