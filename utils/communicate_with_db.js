@@ -1,4 +1,4 @@
-var url = 'mongodb://shaileshmourya:Kumar7425@ds241012.mlab.com:41012';
+var url = 'mongodb://shaileshmourya:Kumar7425@ds241012.mlab.com:41012/bank_details';
 //var url = 'mongodb://127.0.0.1:27017';
 var MongoClient = require('mongodb').MongoClient;
 
